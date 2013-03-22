@@ -1,0 +1,17 @@
+
+      <div ng-controller="TaskCtrl">
+        <div class="app">
+        <form ng-submit="addTask()">
+          <h1>To Due</h1>
+          <input class="input" type="text" ng-model="newTask.title">
+          <input button class="button" type="submit" value="Add">
+        </form>
+        
+          <div ng-repeat="task in tasks" omar ng-cloak>
+            <div class="task" ng-click="markDone($index)">{{task.title}}</div>
+          </div>
+
+        <button button class="button" ng-click="clearDone()">Clear Finished Tasks</button>
+      </div>
+
+    </div>

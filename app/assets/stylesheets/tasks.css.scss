@@ -1,0 +1,40 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.done {
+	color: #343D47;
+	text-decoration: line-through;
+}
+
+.task {
+	border-bottom: 1px solid #808080;
+	background: #D2E0EE;
+	width: 475px;
+	height: 30px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	
+}
+
+.input {
+	font-size: 20px;
+	width: 400px;
+	height: 30px;
+}
+
+.button {
+	border: 1px solid #01172E;
+	background: #426385;
+	font-weight: bold;
+	height: 35px;
+	font-size: 20px;
+}
+
+.app {
+	border: 2px solid #808080;
+	background: #A9CBEE;
+	width: 500px;
+	padding: 2%;
+}
